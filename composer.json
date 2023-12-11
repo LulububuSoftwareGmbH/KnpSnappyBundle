@@ -15,10 +15,17 @@
             "homepage": "http://github.com/KnpLabs/KnpSnappyBundle/contributors"
         }
     ],
+    "repositories": {
+        "knplabs/knp-snappy": {
+            "type": "git",
+            "url": "https://github.com/LulububuSoftwareGmbH/snappy.git",
+            "reference": "dev-master"
+        }
+    },
     "require": {
         "php":                      ">=7.4",
         "symfony/framework-bundle": "^4.4|^5.1|^6.0",
-        "knplabs/knp-snappy":       "^1.4.3"
+        "knplabs/knp-snappy":       "@dev"
     },
     "autoload": {
         "psr-4": {
